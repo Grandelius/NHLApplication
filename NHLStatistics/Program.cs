@@ -11,10 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddNhlApi();
-//builder.Services.AddTransient<PlayerDataSearchResult>();
-//builder.Services.AddSingleton<INhlPlayerApi, NhlPlayerApi>();
-//builder.Services.AddSingleton<INhlLeagueApi, NhlLeagueApi>();
-//builder.Services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>();
+
 
 var app = builder.Build();
 
