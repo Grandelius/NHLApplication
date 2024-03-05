@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace NHL.Database.Entities
 {
-    public class PlayerTeam : IEntity
+    public class PlayerTeam : IReferenceEntity
     {
-        public int Id { get; set; }
+        public int PlayerId { get; set; }
+        public int TeamId { get; set; }
+        public int SeasonId { get; set; }
     }
 }

@@ -10,8 +10,8 @@ namespace NHL.Database.Entities
     public class PlayerStatistic : IEntity
     {
         public int Id { get; set; }
-        public int PlayerID { get; set; }
-        public int SeasonID { get; set; }
+        public int PlayerId { get; set; }
+        public int SeasonId { get; set; }
         public int GamesPlayed { get; set; }
         public int Goals { get; set; }
         public int Assists { get; set; }
