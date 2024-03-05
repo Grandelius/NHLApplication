@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NHL.Database.Entities
 {
-    internal class PlayerStatistic : IEntity
+    public class PlayerStatistic : IEntity
     {
         public int Id { get; set; }
         public int PlayerID { get; set; }

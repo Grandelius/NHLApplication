@@ -14,5 +14,7 @@ namespace NHL.Database.Entities
         public string LastName { get; set; }
         public int Height { get; set; }
         public int Weight { get; set; }
+
+        public List<PlayerStatistic>? Statistics { get; set; }
     }
 }

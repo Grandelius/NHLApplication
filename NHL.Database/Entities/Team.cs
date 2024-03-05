@@ -13,5 +13,7 @@ namespace NHL.Database.Entities
         public string Name { get; set; }
         public int Founded { get; set; }
         public string Logo { get; set; }
+
+        public List<TeamStatistic> Statistics { get; set; }
     }
 }

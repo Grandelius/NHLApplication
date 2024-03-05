@@ -10,6 +10,6 @@ namespace NHL.Database.Entities
     public class Season : IEntity
     {
         public int Id { get; set; }
-        public int Season { get; set; }
+        public int SeasonYear { get; set; }
     }
 }
