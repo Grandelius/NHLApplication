@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NHL.Database.Interfaces
 {
-    internal interface IReferenceEntity
+    public interface IReferenceEntity
     {
     }
 }
