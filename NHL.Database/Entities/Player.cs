@@ -10,5 +10,9 @@ namespace NHL.Database.Entities
     public class Player : IEntity
     {
         public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
     }
 }
