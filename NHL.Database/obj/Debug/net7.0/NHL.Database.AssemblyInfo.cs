@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NHL.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2030630ad88aa3dc7f0c09ad492211428a29aece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aafd879ea6c42e614ad11621a6a8161a9f904fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NHL.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NHL.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

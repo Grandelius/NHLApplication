@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHLStatistics", "NHLStatistics\NHLStatistics.csproj", "{2825A0E2-BDD5-4EDD-8408-1ACBEB633D63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7} = {BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHL.Database", "NHL.Database\NHL.Database.csproj", "{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHL.Database", "NHL.Database\NHL.Database.csproj", "{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

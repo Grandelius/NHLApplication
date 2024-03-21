@@ -1,6 +1,8 @@
+using Microsoft.EntityFrameworkCore;
 using Nhl.Api;
 using Nhl.Api.Extensions.Microsoft.DependencyInjection;
 using Nhl.Api.Models.Player;
+using NHL.Database.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddNhlApi();
+
+builder.Services.AddDbContext<NHLDbContext>(
+options => options.UseSqlServer(
+ builder.Configuration.GetConnectionString("NHLConnection")));
 
 
 var app = builder.Build();
