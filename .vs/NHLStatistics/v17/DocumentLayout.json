@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\contexts\\nhldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\contexts\\nhldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\playerstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\playerstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\teamstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\teamstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\playerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\playerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|c:\\users\\\u00E4gare\\source\\repos\\nhlstatistics\\nhl.database\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC02EF8-68D5-49E1-9F42-1B1886A3D4D7}|NHL.Database\\NHL.Database.csproj|solutionrelative:nhl.database\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NHLDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Contexts\\NHLDbContext.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Contexts\\NHLDbContext.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Contexts\\NHLDbContext.cs",
+              "RelativeToolTip": "NHL.Database\\Contexts\\NHLDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:10:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\Team.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Team.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:05:15.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Season.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Season.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\Season.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Season.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\Season.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T15:05:03.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerTeam.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\PlayerTeam.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\PlayerTeam.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\PlayerTeam.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\PlayerTeam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T15:51:35.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamStatistic.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\TeamStatistic.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\TeamStatistic.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\TeamStatistic.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\TeamStatistic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T15:50:21.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerStatistic.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\PlayerStatistic.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\PlayerStatistic.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\PlayerStatistic.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\PlayerStatistic.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T15:49:26.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "NHL.Database\\Entities\\Player.cs",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\source\\repos\\NHLStatistics\\NHL.Database\\Entities\\Player.cs",
+              "RelativeToolTip": "NHL.Database\\Entities\\Player.cs",
+              "ViewState": "AQIAAAUAAABAMzMzMzMbwBYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T15:47:36.924Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
