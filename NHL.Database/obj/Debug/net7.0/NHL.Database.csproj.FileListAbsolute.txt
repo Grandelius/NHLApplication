@@ -1,0 +1,15 @@
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Database.deps.json
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Database.runtimeconfig.json
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Database.dll
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Database.pdb
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.csproj.AssemblyReference.cache
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.AssemblyInfoInputs.cache
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.AssemblyInfo.cs
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.csproj.CoreCompileInputs.cache
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.sourcelink.json
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.dll
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\refint\NHL.Database.dll
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.pdb
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.genruntimeconfig.cache
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\ref\NHL.Database.dll
