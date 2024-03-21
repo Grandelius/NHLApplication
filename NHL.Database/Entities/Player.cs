@@ -20,5 +20,6 @@ namespace NHL.Database.Entities
         public int Weight { get; set; }
 
         public virtual ICollection<PlayerStatistic>? Statistics { get; set; }
+        public virtual ICollection<PlayerTeam> PlayerTeams { get; set; }
     }
 }

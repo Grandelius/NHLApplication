@@ -12,6 +12,7 @@ namespace NHL.Database.Entities
         public Team()
         {
             Statistics = new HashSet<TeamStatistic>();
+            PlayerTeams = new HashSet<PlayerTeam>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
@@ -19,5 +20,6 @@ namespace NHL.Database.Entities
         public string Logo { get; set; }
 
         public virtual ICollection<TeamStatistic> Statistics { get; set; }
+        public virtual ICollection<PlayerTeam> PlayerTeams { get; set; }
     }
 }

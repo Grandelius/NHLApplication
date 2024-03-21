@@ -17,5 +17,8 @@ namespace NHL.Database.Entities
         public int Assists { get; set; }
         public int Pim { get; set; }
         public int PlusMinus { get; set; }
+
+        public Player Player { get; set; }
+        public Season Season { get; set; }
     }
 }
