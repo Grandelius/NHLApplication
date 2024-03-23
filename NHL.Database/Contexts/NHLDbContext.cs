@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NHL.Database.Entities;
+using NHL.Database.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,6 +61,7 @@ namespace NHL.Database.Contexts
                 .HasForeignKey(ts => ts.TeamId);
 
             base.OnModelCreating(builder);
+
         }
     }
 }
