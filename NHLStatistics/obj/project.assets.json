@@ -2838,6 +2838,16 @@
           }
         }
       },
+      "NHL.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/NHL.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NHL.Common.dll": {}
+        }
+      },
       "NHL.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2846,7 +2856,8 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.17",
           "Microsoft.EntityFrameworkCore": "7.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
+          "NHL.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NHL.Database.dll": {}
@@ -7981,6 +7992,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "NHL.Common/1.0.0": {
+      "type": "project",
+      "path": "../NHL.Common/NHL.Common.csproj",
+      "msbuildProject": "../NHL.Common/NHL.Common.csproj"
     },
     "NHL.Database/1.0.0": {
       "type": "project",

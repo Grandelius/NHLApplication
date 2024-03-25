@@ -12,7 +12,7 @@ namespace NHL.Database.Extensions
 {
     public static class NHLContextExtensions
     {
-        public static async Task SeedteamData(this IDbService service)
+        public static async Task SeedTeamData(this IDbService service)
         {
             try
             {

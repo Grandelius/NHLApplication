@@ -13,3 +13,6 @@ C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\refint\
 C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.pdb
 C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Database.genruntimeconfig.cache
 C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\ref\NHL.Database.dll
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Common.dll
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\bin\Debug\net7.0\NHL.Common.pdb
+C:\Users\ÄGARE\source\repos\NhlStatistics\NHL.Database\obj\Debug\net7.0\NHL.Data.90591E95.Up2Date

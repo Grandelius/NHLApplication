@@ -1126,6 +1126,16 @@
             "rid": "win"
           }
         }
+      },
+      "NHL.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/NHL.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NHL.Common.dll": {}
+        }
       }
     }
   },
@@ -3050,6 +3060,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "NHL.Common/1.0.0": {
+      "type": "project",
+      "path": "../NHL.Common/NHL.Common.csproj",
+      "msbuildProject": "../NHL.Common/NHL.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3060,7 +3075,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.17",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.17",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.17"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.17",
+      "NHL.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3089,7 +3105,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ÄGARE\\source\\repos\\NhlStatistics\\NHL.Common\\NHL.Common.csproj": {
+              "projectPath": "C:\\Users\\ÄGARE\\source\\repos\\NhlStatistics\\NHL.Common\\NHL.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

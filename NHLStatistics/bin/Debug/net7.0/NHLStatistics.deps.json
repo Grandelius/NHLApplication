@@ -1736,13 +1736,19 @@
           }
         }
       },
+      "NHL.Common/1.0.0": {
+        "runtime": {
+          "NHL.Common.dll": {}
+        }
+      },
       "NHL.Database/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.OpenApi": "7.0.17",
           "Microsoft.EntityFrameworkCore": "7.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
+          "NHL.Common": "1.0.0"
         },
         "runtime": {
           "NHL.Database.dll": {}
@@ -2805,6 +2811,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "NHL.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NHL.Database/1.0.0": {
       "type": "project",
