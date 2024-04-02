@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NHL.Database.Contexts;
 
@@ -11,9 +12,11 @@ using NHL.Database.Contexts;
 namespace NHL.Database.Migrations
 {
     [DbContext(typeof(NHLDbContext))]
-    partial class NHLDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240401120015_AllowNullForColumns")]
+    partial class AllowNullForColumns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,17 +33,8 @@ namespace NHL.Database.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("BirthDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("BirthPlace")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("HeadShotImage")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Height")
@@ -48,12 +42,6 @@ namespace NHL.Database.Migrations
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PlayerEnum")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Shoots")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Weight")
@@ -75,9 +63,6 @@ namespace NHL.Database.Migrations
                     b.Property<int>("Assists")
                         .HasColumnType("int");
 
-                    b.Property<string>("AverageTimeOnIce")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("GamesPlayed")
                         .HasColumnType("int");
 
@@ -91,15 +76,6 @@ namespace NHL.Database.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("PlusMinus")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Points")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PpGoals")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PpPoints")
                         .HasColumnType("int");
 
                     b.Property<int>("SeasonId")
@@ -158,15 +134,15 @@ namespace NHL.Database.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("Founded")
+                        .HasColumnType("int");
+
                     b.Property<string>("Logo")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TeamEnum")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

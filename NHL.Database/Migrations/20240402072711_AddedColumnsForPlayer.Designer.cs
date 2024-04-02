@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NHL.Database.Contexts;
 
@@ -11,9 +12,11 @@ using NHL.Database.Contexts;
 namespace NHL.Database.Migrations
 {
     [DbContext(typeof(NHLDbContext))]
-    partial class NHLDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240402072711_AddedColumnsForPlayer")]
+    partial class AddedColumnsForPlayer
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
