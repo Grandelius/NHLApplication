@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "YourStrong!Passw0rd"
+    ports:
+      - "1433:1433"
+    volumes:
+      - db_data:/var/opt/mssql
+  api:
+    build: .
+    ports:
+      - "5000:80"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=NHLDb;User=sa;Password=YourStrong!Passw0rd
+    depends_on:
+      - db
+volumes:
+  db_data:
