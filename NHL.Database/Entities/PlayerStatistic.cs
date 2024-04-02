@@ -13,12 +13,16 @@ namespace NHL.Database.Entities
         public int PlayerId { get; set; }
         public int SeasonId { get; set; }
         public int GamesPlayed { get; set; }
+        public string? AverageTimeOnIce { get; set; }
         public int Goals { get; set; }
         public int Assists { get; set; }
+        public int Points { get; set; }
         public int Pim { get; set; }
+        public int PpGoals { get; set; }
+        public int PpPoints { get; set; }
         public int PlusMinus { get; set; }
 
-        public Player Player { get; set; }
-        public Season Season { get; set; }
+        public Player? Player { get; set; }
+        public Season? Season { get; set; }
     }
 }

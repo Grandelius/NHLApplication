@@ -16,8 +16,8 @@ namespace NHL.Database.Entities
         }
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Founded { get; set; }
-        public string Logo { get; set; }
+        public string? Logo { get; set; }
+        public int TeamEnum { get; set; }
 
         public virtual ICollection<TeamStatistic> Statistics { get; set; }
         public virtual ICollection<PlayerTeam> PlayerTeams { get; set; }

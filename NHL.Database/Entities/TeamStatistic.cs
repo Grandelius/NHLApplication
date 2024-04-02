@@ -11,7 +11,7 @@ namespace NHL.Database.Entities
     {
         public int Id { get; set; }
         public int TeamId { get; set; }
-        public int GamesPlayed { get; set; }
+        public int? GamesPlayed { get; set; }
         public int Points { get; set; }
         public int Wins { get; set; }
         public int Losses { get; set; }
