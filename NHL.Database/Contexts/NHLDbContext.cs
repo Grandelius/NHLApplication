@@ -63,5 +63,6 @@ namespace NHL.Database.Contexts
             base.OnModelCreating(builder);
 
         }
+
     }
 }

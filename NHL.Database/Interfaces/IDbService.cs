@@ -12,5 +12,6 @@ namespace NHL.Database.Interfaces
             where TEntity : class
             where TDto : class;
         Task<bool> SaveChangesAsync();
+
     }
 }

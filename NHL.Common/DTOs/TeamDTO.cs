@@ -8,7 +8,7 @@ namespace NHL.Common.DTOs
 {
     public class TeamDTO
     {
-        public int Id { get; set; }
+        public int TeamEnum { get; set; }
         public string Name { get; set; }
 
     }

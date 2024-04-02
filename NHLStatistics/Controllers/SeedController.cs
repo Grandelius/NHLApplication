@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NHL.Database.Interfaces;
 using NHL.Database.Extensions;
+using NHL.Database.Contexts;
 
 namespace NHLStatistics.Controllers
 {
@@ -15,7 +16,6 @@ namespace NHLStatistics.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-
         public async Task<IResult> SeedTeamData()
         {
             try
@@ -28,6 +28,5 @@ namespace NHLStatistics.Controllers
                 return Results.BadRequest();
             }
         }
-
     }
 }
