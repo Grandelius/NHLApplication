@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs
+/.vs/NHLStatistics/v17/.suo
+/NHL.Common/obj/Debug/net7.0/NHL.Common.AssemblyInfo.cs
+/NHL.Common/obj/Debug/net7.0/NHL.Common.AssemblyInfoInputs.cache
+/NHL.Database/obj/Debug/net7.0/NHL.Database.AssemblyInfo.cs
+/NHL.Database/obj/Debug/net7.0/NHL.Database.AssemblyInfoInputs.cache
+/NHL.Database/obj/Debug/net7.0/NHL.Database.csproj.AssemblyReference.cache
+/NHLStatistics/obj/Debug/net7.0/NHLStatistics.AssemblyInfo.cs
+/NHLStatistics/obj/Debug/net7.0/NHLStatistics.AssemblyInfoInputs.cache
+/NHLStatistics/obj/Debug/net7.0/NHLStatistics.assets.cache
+/NHLStatistics/obj/Debug/net7.0/NHLStatistics.csproj.AssemblyReference.cache
+/NHLStatistics/obj/Debug/net7.0/NHLStatistics.GeneratedMSBuildEditorConfig.editorconfig
